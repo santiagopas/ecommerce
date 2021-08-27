@@ -1,4 +1,4 @@
-class holaMundo extends HTMLElement {
+class cardC extends HTMLElement {
     constructor() {
         super();
         this.titulo;
@@ -45,4 +45,4 @@ class holaMundo extends HTMLElement {
     }
 }
 
-window.customElements.define("hola-mundo", holaMundo);
+window.customElements.define("tarjeta-comp", cardC);
