@@ -1,0 +1,5 @@
+@import './tarjeta.css';
+@import './tarjeta2.css'
+:root{
+  --cardColor: whitesmoke;
+}
