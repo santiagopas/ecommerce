@@ -31,16 +31,16 @@ class cardC extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-      <div class="container">
-      <div class="caja">
-      <img src="${this.src}" width="400" alt="foto"/>
-          <h1>${this.titulo}</h1>
-          <p>Descripcion: ${this.sub}</p>
-          <p>${this.precio}</p>
-      </div>
-      </div>
-      `;
-        this.style.color = "blue";
+        <div class="cardWrap">
+            <div class="card">
+                <img class="cardImg" src="${this.src}" width="400" alt="foto"/>
+                    <h1>${this.titulo}</h1>
+                    <p>Descripcion: ${this.sub}</p>
+                    <p>${this.precio}</p>
+            </div>
+        </div>
+        `;
+        this.style.color = "darkgray";
         this.style.fontFamily = "sans-serif";
     }
 }
