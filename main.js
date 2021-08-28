@@ -34,7 +34,7 @@ class cardC extends HTMLElement {
         <div class="container w-50">
         <div class="row">
           <div class="card-deck">
-            <div class="card text-center col-md">
+            <div class="card text-center col-sm">
               <img class="card-img-top foto align-self-center" width="12" src="${this.src}" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">${this.titulo}</h5>
